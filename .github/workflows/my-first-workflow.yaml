@@ -36,7 +36,7 @@ jobs:
     needs: Build
     environment: Test
     steps:
-      - run: echo "🧪 Testing...
+      - run: echo "🧪 Testing..."
       
   Load-Test:
     runs-on: ubuntu-latest
